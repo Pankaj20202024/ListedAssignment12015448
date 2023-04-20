@@ -1,0 +1,639 @@
+#SignInMainContainer {
+    display: flex;
+    width: 100%;
+    /* height: 600px; */
+    height: 100%;
+    /* border: 2px solid pink; */
+}
+
+#MainBoardContainer {
+    /* border: 2px solid green; */
+    background-color: black;
+    width: 40%;
+    /* height: 100%; */
+    /* height: 700px; */
+    height: 105vh;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#BoadHeading {
+    font-size: 55px;
+}
+
+#SingInContainer {
+    /* border: 2px solid crimson; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#SingInHeading {
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+}
+
+#Heading1 {
+    /* border: 2px solid violet; */
+    margin-left: 23%;
+    font-size: 36px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    width: 20%;
+    padding: 5px;
+}
+
+#Heading2 {
+    /* border: 2px solid rgb(0, 255, 34); */
+    margin-left: 23%;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    width: 20%;
+    padding: 5px;
+    margin-top: -4%;
+
+}
+
+#SignInOption {
+    /* border: 2px solid purple; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.SingInOptionButtons {
+    border: 2px solid hotpink;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+    width: 25%;
+    margin: 2%;
+    background: #FFFFFF;
+    border-radius: 15px;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    outline: none;
+    border: none;
+}
+
+#SingInImgageContainer {
+    /* border: 2px solid yellow; */
+    width: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.SignOptionImage {
+    /* border: 2px solid crimson; */
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* writing the css for details container of singin option  */
+
+#SingInDetailsContainer {
+    background: #F5F5F5;
+    border-radius: 10px;
+    width: 54%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* margin-left: 1%; */
+}
+
+
+/* css for details container of singin  */
+#containerForDetails {
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.detailsHeading {
+    /* border: 2px solid purple; */
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    width: 80%;
+    margin-top: 4%;
+}
+
+.detailsData {
+    /* border: 2px solid grey; */
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    width: 80%;
+    padding: 6px;
+    background: #EAEAEA;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    margin-top: -1.5%;
+    color: #000000;
+}
+
+/* css for password container  */
+#containerForPassword {
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+}
+
+/* css for forgot password container and it's inner content  */
+
+#containerForForgetPassword {
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    margin-top: 4%;
+}
+
+#forgotPassword {
+    /* border: 2px solid yellow; */
+    margin-left: 9%;
+    text-decoration: none;
+    color: #346BD4;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+/* css for error message  */
+.ErrorMessageContainer {
+    /* border: 2px solid purple; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 4%;
+    margin-bottom: 1%;
+}
+
+.errormessage {
+    color: red;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+
+
+/* css for writing the signin button css  */
+
+#SignInButtonContainer {
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 4%;
+    margin-bottom: 3%;
+}
+
+#SiginInButton {
+    background-color: #000000;
+    color: #FFFFFF;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    width: 83%;
+    padding: 6px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+#SiginInButton:disabled {
+    background-color: #3f3f3f;
+}
+
+/* css for ifnoaccount exist container  */
+
+#NoAccountContainer {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #858585;
+}
+
+#anchortagforregisterhere {
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    color: #346BD4;
+}
+
+/* adding media query in SignIn page  */
+
+@media (min-width:702px) and (max-width: 1179px) {
+    #Heading1 {
+        width: 40%;
+        margin-top: -4%;
+        margin-left: 15%;
+    }
+
+    #Heading2 {
+        width: 40%;
+        margin-top: -6%;
+        margin-left: 15%;
+
+    }
+
+    #SingInDetailsContainer {
+        width: 70%;
+    }
+}
+
+
+@media (min-width:702px) and (max-width: 1179px) {
+    #Heading1 {
+        width: 40%;
+        margin-top: -4%;
+        margin-left: 15%;
+    }
+
+    #Heading2 {
+        width: 40%;
+        margin-top: -6%;
+        margin-left: 15%;
+
+    }
+    #SingInDetailsContainer {
+        width: 70%;
+    }
+
+    #SignInOption {
+        margin-left: 25%;
+        justify-content: flex-start;
+    }
+
+    .SingInOptionButtons {
+        width: 30%;
+    }
+}
+
+
+@media (min-width:607px) and (max-width: 702px) {
+    #Heading1 {
+        width: 60%;
+        margin-top: -4%;
+        margin-left: 9%;
+    }
+
+    #Heading2 {
+        width: 60%;
+        margin-top: -9%;
+        margin-left: 9%;
+    }
+
+    #SingInDetailsContainer {
+        width: 80%;
+    }
+
+    #NoAccountContainer {
+        font-size: 15px;
+    }
+
+    #anchortagforregisterhere {
+        font-size: 15px;
+    }
+
+    #SignInOption {
+        margin-left: 16%;
+        justify-content: flex-start;
+    }
+
+    .SingInOptionButtons {
+        width: 34%;
+
+    }
+}
+
+@media (min-width:582px) and (max-width: 607px) {
+    #Heading1 {
+        width: 60%;
+        margin-top: -4%;
+        margin-left: 4%;
+    }
+
+    #Heading2 {
+        width: 60%;
+        margin-top: -10%;
+        margin-left: 4%;
+    }
+
+    #SingInDetailsContainer {
+        width: 90%;
+    }
+
+    #NoAccountContainer {
+        font-size: 15px;
+    }
+
+    #anchortagforregisterhere {
+        font-size: 15px;
+    }
+
+    #SignInOption {
+        margin-left: 6%;
+        justify-content: flex-start;
+    }
+
+    .SingInOptionButtons {
+        width: 36%;
+    }
+}
+
+
+@media (min-width:478px) and (max-width: 582px) {
+    #Heading1 {
+        width: 60%;
+        margin-top: -4%;
+        margin-left: 2%;
+    }
+
+    #Heading2 {
+        width: 60%;
+        margin-top: -10%;
+        margin-left: 2%;
+    }
+
+    #SingInDetailsContainer {
+        width: 96%;
+    }
+
+    #NoAccountContainer {
+        font-size: 15px;
+    }
+
+    #anchortagforregisterhere {
+        font-size: 15px;
+    }
+
+    #SignInOption {
+        margin-left: 0.5%;
+        justify-content: flex-start;
+    }
+
+    .SingInOptionButtons {
+        width: 48%;
+    }
+
+    #MainBoardContainer {
+        width: 36%;
+    }
+
+    #BoadHeading {
+        font-size: 43px;
+        padding: 7px;
+    }
+}
+
+@media (min-width:423px) and (max-width: 478px) {
+    #Heading1 {
+        width: 60%;
+        margin-top: -4%;
+        margin-left: 2%;
+    }
+
+    #Heading2 {
+        width: 60%;
+        margin-top: -15%;
+        margin-left: 2%;
+    }
+
+    #SingInDetailsContainer {
+        width: 96%;
+    }
+
+    #NoAccountContainer {
+        font-size: 13px;
+    }
+
+    #anchortagforregisterhere {
+        font-size: 13px;
+    }
+
+    #SignInOption {
+        margin-left: 0.5%;
+        justify-content: flex-start;
+    }
+
+    .SingInOptionButtons {
+        width: 48%;
+        font-size: 10px;
+    }
+
+    #MainBoardContainer {
+        width: 36%;
+    }
+
+    #BoadHeading {
+        font-size: 38px;
+        padding: 7px;
+    }
+}
+
+
+@media (min-width:397px) and (max-width: 423px) {
+    #Heading1 {
+        width: 60%;
+        margin-top: -4%;
+        margin-left: 1%;
+    }
+
+    #Heading2 {
+        width: 90%;
+        margin-top: -16%;
+        margin-left: 1%;
+    }
+
+    #SingInDetailsContainer {
+        width: 99%;
+        margin-left: 4%;
+    }
+
+    #NoAccountContainer {
+        font-size: 11px;
+    }
+
+    #anchortagforregisterhere {
+        font-size: 11px;
+    }
+
+    #SignInOption {
+        margin-left: 0.5%;
+        justify-content: flex-start;
+    }
+
+    .SingInOptionButtons {
+        width: 49%;
+        font-size: 10px;
+        margin-bottom: 4%;
+
+    }
+
+    #MainBoardContainer {
+        width: 32%;
+    }
+
+    #BoadHeading {
+        font-size: 25px;
+        padding: 7px;
+    }
+
+    #SingInImgageContainer {
+        width: 17%;
+    }
+
+    .SignOptionImage {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+@media (min-width:294px) and (max-width: 397px) {
+    #Heading1 {
+        width: 60%;
+        margin-top: -4%;
+        margin-left: 1%;
+    }
+
+    #Heading2 {
+        width: 90%;
+        margin-top: -16%;
+        margin-left: 1%;
+    }
+
+    #SingInDetailsContainer {
+        width: 99%;
+        margin-left: 4%;
+    }
+
+    #NoAccountContainer {
+        font-size: 11px;
+    }
+
+    #anchortagforregisterhere {
+        font-size: 11px;
+    }
+
+    #SignInOption {
+        margin-left: 0.5%;
+        justify-content: flex-start;
+    }
+
+    .SingInOptionButtons {
+        width: 49%;
+        font-size: 11px;
+        margin-bottom: 4%;
+
+    }
+
+    #MainBoardContainer {
+        width: 32%;
+    }
+
+    #BoadHeading {
+        font-size: 25px;
+        padding: 7px;
+    }
+
+    #SingInImgageContainer {
+        width: 17%;
+    }
+
+    .SignOptionImage {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 294px) {
+    #Heading1 {
+        width: 60%;
+        margin-top: -4%;
+        margin-left: 1%;
+    }
+
+    #Heading2 {
+        width: 90%;
+        margin-top: -16%;
+        margin-left: 1%;
+    }
+
+    #SingInDetailsContainer {
+        width: 99%;
+        margin-left: 4%;
+    }
+
+    #NoAccountContainer {
+        font-size: 11px;
+    }
+
+    #anchortagforregisterhere {
+        font-size: 11px;
+    }
+
+    #SignInOption {
+        margin-left: 0.5%;
+        justify-content: flex-start;
+    }
+
+    .SingInOptionButtons {
+        width: 49%;
+        font-size: 10px;
+        margin-bottom: 4%;
+
+    }
+
+    #MainBoardContainer {
+        width: 32%;
+    }
+
+    #BoadHeading {
+        font-size: 25px;
+        padding: 7px;
+    }
+
+    #SingInImgageContainer {
+        width: 17%;
+    }
+
+    .SignOptionImage {
+        width: 100%;
+        height: 100%;
+    }
+}

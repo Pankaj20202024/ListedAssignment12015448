@@ -1,0 +1,356 @@
+/* css for activities main container  */
+
+#ActivityMainContainer {
+    width: 100%;
+    height: 100%;
+    margin-top: 3%;
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+
+#ActivitiesUpperContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#ActivityHeadingsContainer {
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+/* css for activity heading  */
+
+#ActivitiesHeading {
+    width: 100%;
+    text-align: left;
+    border-radius: 20px;
+
+}
+
+#Heading {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    padding: 8px;
+}
+
+
+/* css for activity time period */
+
+#ActivitiesTimePeriod {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 20px;
+    padding: 4px;
+    margin-top: -8%;
+}
+
+#ActivitiesTime {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    color: #858585;
+    padding: 4px;
+
+}
+
+#ActivitiesImgContainer {
+    width: 3%;
+    height: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#ActivitiesOptionImg {
+    width: 100%;
+    height: 100%;
+    filter: invert(65%);
+}
+
+
+/* css for legend container */
+
+#LegendContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.LegendColor {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+/* css for creating circle before the legend data  */
+.CircularDiv {
+    border-radius: 50%;
+    width: 2%;
+    height: 9px;
+    margin: 3px;
+}
+
+/* css for legend data  */
+.LegendData {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    color: #000000;
+    margin-right: 5%;
+}
+
+
+/* css to check where is our chart main  container presents  */
+
+#ChartMainContainer {
+    width: 100%;
+    height: 100%;
+}
+
+@media (min-width:786px) and (max-width: 889px) {
+    #Heading {
+        font-size: 16px;
+    }
+
+    #ActivitiesTime {
+        font-size: 12px;
+    }
+
+    .LegendData {
+        font-size: 13px;
+    }
+
+    .CircularDiv {
+        width: 3%;
+    }
+
+}
+
+@media (min-width:725px) and (max-width: 786px) {
+    #Heading {
+        font-size: 16px;
+    }
+
+    #ActivitiesTime {
+        font-size: 12px;
+    }
+
+    .LegendData {
+        font-size: 13px;
+    }
+
+    .CircularDiv {
+        width: 3%;
+    }
+
+}
+
+@media (min-width:759px) and (max-width: 725px) {
+    #Heading {
+        font-size: 16px;
+    }
+
+    #ActivitiesTime {
+        font-size: 12px;
+    }
+
+    .LegendData {
+        font-size: 13px;
+    }
+
+    .CircularDiv {
+        width: 3%;
+    }
+
+}
+
+@media (min-width:665px) and (max-width: 759px) {
+    #Heading {
+        font-size: 15px;
+    }
+
+    #ActivitiesTime {
+        font-size: 11px;
+
+    }
+
+    #ActivitiesTimePeriod {
+        margin-top: -16%;
+    }
+
+    .LegendData {
+        font-size: 11px;
+    }
+
+    .CircularDiv {
+        width: 3%;
+    }
+
+}
+
+@media (min-width:626px) and (max-width: 665px) {
+    #Heading {
+        font-size: 14px;
+    }
+
+    #ActivitiesTime {
+        font-size: 10px;
+
+    }
+
+    #ActivitiesTimePeriod {
+        margin-top: -16%;
+    }
+
+    .LegendData {
+        font-size: 10px;
+    }
+
+    .CircularDiv {
+        width: 3%;
+    }
+
+}
+
+@media (min-width:493px) and (max-width: 626px) {
+    #Heading {
+        font-size: 11px;
+    }
+
+    #ActivitiesTime {
+        font-size: 8px;
+
+    }
+
+    #ActivitiesTimePeriod {
+        margin-top: -17%;
+    }
+
+    .LegendData {
+        font-size: 8px;
+    }
+
+    .CircularDiv {
+        width: 3%;
+        height: 6px;
+    }
+
+}
+
+@media (min-width:342px) and (max-width: 493px) {
+    #Heading {
+        font-size: 8px;
+    }
+
+    #ActivitiesTime {
+        font-size: 7px;
+
+    }
+
+    #ActivitiesTimePeriod {
+        margin-top: -19%;
+    }
+
+    .LegendData {
+        font-size: 7px;
+    }
+
+    .CircularDiv {
+        width: 4%;
+        height: 5px;
+    }
+
+    #ActivityMainContainer {
+        border-radius: 15px;
+    }
+
+}
+
+@media (min-width:330px) and (max-width: 342px) {
+    #Heading {
+        font-size: 7px;
+    }
+
+    #ActivitiesTime {
+        font-size: 5px;
+
+    }
+
+    #ActivitiesTimePeriod {
+        margin-top: -20%;
+    }
+
+    .LegendData {
+        font-size: 5px;
+    }
+
+    .CircularDiv {
+        width: 4%;
+        height: 5px;
+    }
+
+}
+
+@media (min-width:328px) and (max-width: 330px) {
+    #Heading {
+        font-size: 7px;
+    }
+
+    #ActivitiesTime {
+        font-size: 5px;
+
+    }
+
+    #ActivitiesTimePeriod {
+        margin-top: -20%;
+    }
+
+    .LegendData {
+        font-size: 5px;
+    }
+
+    .CircularDiv {
+        width: 4%;
+        height: 5px;
+    }
+}
+
+@media screen and (max-width: 328px) {
+    #Heading {
+        font-size: 5px;
+    }
+
+    #ActivitiesTime {
+        font-size: 4px;
+
+    }
+
+    #ActivitiesTimePeriod {
+        margin-top: -27%;
+    }
+
+    .LegendData {
+        font-size: 4px;
+    }
+
+    .CircularDiv {
+        width: 4%;
+        height: 4px;
+    }
+
+    #ActivityMainContainer {
+        border-radius: 10px;
+    }
+}

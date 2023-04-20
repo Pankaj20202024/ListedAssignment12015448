@@ -1,0 +1,413 @@
+#MainTopProductContainer {
+    width: 50%;
+    height: 100%;
+    background: #FFFFFF;
+    border-radius: 20px;
+    margin-right: 1%;
+    margin-top: 3%;
+}
+
+
+#PieChartHeadingsContainer {
+    display: flex;
+    border-radius: 20px;
+}
+
+#PieChartHeading {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin-left: 1%;
+}
+
+#Heading {
+    width: 100%;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    padding: 4px;
+    border-radius: 20px;
+}
+
+#PieChartTimePeriod {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    border-radius: 20px;
+}
+
+#PieChartTime {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    color: #858585;
+    border-radius: 20px;
+
+}
+
+#PieChartImgContainer {
+    width: 6%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2%;
+    margin-left: 1.5%;
+}
+
+#PieChartOptionImg {
+    width: 100%;
+    height: 100%;
+    filter: invert(65%);
+}
+
+
+/* css for piechart container which contain the pichart and label for that pie chart  */
+
+#PieCharMainContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+#PieChartContainer {
+    width: 50%;
+    height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+#PieChartDetailsContainer {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#LegendContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.LegendColor {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.LegendInnerContainer1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.LegendInnerContainer2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5%;
+    margin-top: 2%;
+}
+
+.percentagedata {
+    display: inline;
+    color: #858585;
+    margin-left: 8%;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+
+}
+
+/* css for creating circle before the legend data  */
+.CircularDiv {
+    border-radius: 50%;
+    width: 4%;
+    height: 9px;
+    margin: 3px;
+    margin-right: 6px;
+}
+
+/* css for legend data  */
+.LegendData {
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    margin-right: 5%;
+}
+
+
+
+/* adding media querry  for topbrandcontainer  */
+
+@media (min-width:889px) and (max-width: 969px) {
+    #Heading {
+        font-size: 15px;
+    }
+}
+
+@media (min-width:759px) and (max-width: 889px) {
+    #Heading {
+        font-size: 16px;
+    }
+
+    #PieChartTime {
+        font-size: 12px;
+    }
+
+    .LegendData {
+        font-size: 12px;
+    }
+
+    .CircularDiv {
+        width: 5%;
+    }
+}
+
+@media (min-width: 667px) and (max-width: 759px) {
+    #Heading {
+        font-size: 14px;
+    }
+
+    #PieChartTime {
+        font-size: 11px;
+    }
+
+    .percentagedata {
+        font-size: 11px;
+    }
+
+    .LegendData {
+        font-size: 9px;
+        width: 100%;
+    }
+
+    .CircularDiv {
+        width: 6%;
+    }
+
+    #PieChartContainer {
+        height: 190px;
+    }
+
+}
+
+@media (min-width:641px) and (max-width: 667px) {
+    #Heading {
+        font-size: 14px;
+    }
+
+    #PieChartTime {
+        font-size: 10px;
+    }
+
+    .LegendData {
+        font-size: 9px;
+        width: 100%;
+    }
+
+    .percentagedata {
+        font-size: 10px;
+    }
+
+    .CircularDiv {
+        width: 6%;
+    }
+
+    #PieChartContainer {
+        height: 170px;
+    }
+}
+
+@media (min-width:626px) and (max-width: 641px) {
+    #Heading {
+        font-size: 13px;
+    }
+
+    #PieChartTime {
+        font-size: 10px;
+    }
+
+    .LegendData {
+        font-size: 9px;
+        width: 100%;
+    }
+
+    .percentagedata {
+        font-size: 10px;
+    }
+
+    .CircularDiv {
+        width: 6%;
+    }
+
+    #PieChartContainer {
+        height: 175px;
+    }
+}
+
+@media (min-width:493px) and (max-width: 626px) {
+    #Heading {
+        font-size: 12px;
+        width: 90px;
+    }
+
+    #PieChartTime {
+        font-size: 9px;
+    }
+
+    .LegendData {
+        font-size: 10px;
+        width: 100%;
+    }
+
+    .CircularDiv {
+        width: 6%;
+    }
+
+    #PieChartContainer {
+        height: 175px;
+    }
+
+    .percentagedata {
+        font-size: 9px;
+    }
+}
+
+
+@media (min-width:342px) and (max-width: 493px) {
+    #Heading {
+        font-size: 7px;
+    }
+
+    #PieChartTime {
+        font-size: 7px;
+    }
+
+    .LegendData {
+        font-size: 7px;
+        width: 100%;
+    }
+
+    .CircularDiv {
+        width: 6%;
+        height: 4px;
+    }
+
+    #PieChartContainer {
+        height: 115px;
+    }
+
+    .percentagedata {
+        font-size: 7px;
+    }
+}
+
+@media (min-width:330px) and (max-width: 342px) {
+    #Heading {
+        font-size: 6px;
+    }
+
+    #PieChartTime {
+        font-size: 6px;
+    }
+
+    .LegendData {
+        font-size: 6px;
+        width: 100%;
+    }
+
+    .CircularDiv {
+        width: 6%;
+        height: 3px;
+    }
+
+    #PieChartContainer {
+        height: 137px;
+        border-radius: 1px;
+    }
+
+    .percentagedata {
+        font-size: 6px;
+    }
+}
+
+@media (min-width:328px) and (max-width: 330px) {
+    #Heading {
+        font-size: 6px;
+    }
+
+    #PieChartTime {
+        font-size: 6px;
+    }
+
+    .LegendData {
+        font-size: 6px;
+        width: 100%;
+    }
+
+    .CircularDiv {
+        width: 6%;
+        height: 3px;
+    }
+
+    #PieChartContainer {
+        height: 150px;
+        border-radius: 1px;
+    }
+
+    .percentagedata {
+        font-size: 6px;
+    }
+}
+
+@media screen and (max-width: 328px) {
+    #Heading {
+        font-size: 4px;
+    }
+
+    #PieChartTime {
+        font-size: 4px;
+    }
+
+    .LegendData {
+        font-size: 4px;
+        width: 100%;
+    }
+
+    .CircularDiv {
+        width: 6%;
+        height: 2px;
+    }
+
+    #PieChartContainer {
+        height: 80px;
+        border-radius: 1px;
+    }
+
+    .percentagedata {
+        font-size: 4px;
+    }
+
+    #MainTopProductContainer {
+        border-radius: 10px;
+    }
+}

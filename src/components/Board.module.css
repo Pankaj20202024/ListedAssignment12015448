@@ -1,0 +1,293 @@
+/* css for upper option  */
+
+.BoardOptionContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+    top: 0%;
+}
+
+#UpperOptions {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+
+}
+
+#BoardHeadingContiner {
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#BoardHeading {
+    color: white;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+}
+
+.BoardContainerOption {
+
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.BoardOption {
+
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.BoardLiContainer {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    list-style: none;
+    padding: 2px;
+}
+
+.Imgcontainer {
+
+    width: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-left: 5%;
+    padding: 3px;
+    flex-wrap: wrap;
+}
+
+.OptionImage {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.OptionHeadingContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    flex-wrap: wrap;
+    margin-left: 1%;
+
+}
+
+.OptionHeading {
+    width: 100%;
+    height: 100%;
+    padding: 3px;
+    margin: 2px;
+    font-size: 18px;
+    font-style: normal;
+    letter-spacing: 1.2px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+
+}
+
+
+/* css for lower two option  */
+
+#LowerOptions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    bottom: 3%;
+    left: 0%;
+
+}
+
+.AchorTagForLowerOption {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-decoration: none;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.LowerLiTag {
+    list-style: none;
+    width: 100%;
+    margin-left: 14%;
+    padding: 4px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-style: normal;
+    letter-spacing: 1.2px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+@media (min-width: 759px) and (max-width: 893px) {
+    #BoardHeading {
+        font-size: 30px;
+    }
+
+    .OptionHeading {
+        font-size: 14px;
+    }
+
+    .LowerLiTag {
+        font-size: 13px;
+    }
+}
+
+@media (min-width:665px) and (max-width: 759px) {
+    #BoardHeading {
+        font-size: 28px;
+    }
+
+    .OptionHeading {
+        font-size: 13px;
+    }
+
+    .LowerLiTag {
+        font-size: 12px;
+    }
+}
+
+@media (min-width:626px) and (max-width: 665px) {
+    #BoardHeading {
+        font-size: 25px;
+    }
+
+    .OptionHeading {
+        font-size: 11px;
+    }
+
+    .LowerLiTag {
+        font-size: 10.3px;
+    }
+}
+
+@media (min-width:470px) and (max-width: 626px) {
+    #BoardHeading {
+        font-size: 22px;
+    }
+
+    .OptionHeading {
+        font-size: 9px;
+    }
+
+    .LowerLiTag {
+        font-size: 9px;
+    }
+}
+
+@media (min-width:342px) and (max-width: 470px) {
+    #BoardHeading {
+        font-size: 14px;
+    }
+
+    .BoardOption {
+        margin-top: 8px;
+    }
+
+    .OptionHeading {
+        font-size: 5px;
+    }
+
+    .LowerLiTag {
+        font-size: 5px;
+    }
+}
+
+@media (min-width:330px) and (max-width: 342px) {
+    #BoardHeading {
+        font-size: 14px;
+    }
+
+    .BoardOption {
+        margin-top: 8px;
+    }
+
+    .OptionHeading {
+        font-size: 5px;
+    }
+
+    .LowerLiTag {
+        font-size: 5px;
+    }
+}
+
+@media (min-width:328px) and (max-width: 330px) {
+    #BoardHeading {
+        font-size: 12px;
+    }
+
+    .OptionHeading {
+        font-size: 4px;
+    }
+
+    .LowerLiTag {
+        font-size: 4px;
+    }
+}
+
+@media screen and (max-width: 328px) {
+    #BoardHeading {
+        font-size: 9px;
+    }
+
+    .OptionHeading {
+        font-size: 3.5px;
+    }
+
+    .LowerLiTag {
+        font-size: 3.5px;
+    }
+
+    .BoardOption {
+        margin-top: 1px;
+    }
+}

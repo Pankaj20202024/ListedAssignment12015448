@@ -1,0 +1,53 @@
+#UserChoiceMainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 730px;
+}
+
+#SwitchContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.links {
+    margin: 30px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.buttons {
+    font-size: 1.8rem;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    padding: 4px;
+    cursor: pointer;
+}
+
+#AdviceContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+#GivingAdvice {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-align: center;
+}

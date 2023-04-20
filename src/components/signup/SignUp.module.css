@@ -1,0 +1,377 @@
+#SignUpMainContainer {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+#MainBoardContainer {
+    background-color: black;
+    width: 40%;
+    height: 100vh;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#BoadHeading {
+    font-size: 55px;
+}
+
+#SingUpContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#SingUpHeading {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+}
+
+#Heading1 {
+    margin-left: 23%;
+    font-size: 36px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    width: 20%;
+    padding: 5px;
+}
+
+#Heading2 {
+    margin-left: 23%;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    width: 20%;
+    padding: 5px;
+    margin-top: -4%;
+
+}
+
+/* writing the css for details container of singin option  */
+
+#SingUpDetailsContainer {
+    background: #F5F5F5;
+    border-radius: 10px;
+    width: 54%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* css for details container of singin  */
+#containerForDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.detailsHeading {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    width: 80%;
+    margin-top: 4%;
+}
+
+.detailsData {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    width: 80%;
+    padding: 6px;
+    background: #EAEAEA;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    margin-top: -1.5%;
+    color: #000000;
+}
+
+/* css for password container  */
+#containerForPassword {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+}
+
+
+/* css for error message  */
+.ErrorMessageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 4%;
+    margin-bottom: 1%;
+}
+
+.errormessage {
+    color: red;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+
+
+/* css for writing the signin button css  */
+
+#SignUpButtonContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 4%;
+    margin-bottom: 3%;
+}
+
+#SignUpButton {
+    background-color: #000000;
+    color: #FFFFFF;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    width: 83%;
+    padding: 6px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+#SignUpButton:disabled {
+    background-color: #3f3f3f;
+}
+
+/* css for ifnoaccount exist container  */
+
+#AlreadyHaveAccount {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #858585;
+    text-align: center;
+}
+
+#anchortagforSignInhere {
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    color: #346BD4;
+}
+
+
+
+/* adding media query in signup page  */
+
+@media (min-width:702px) and (max-width: 1179px) {
+    #Heading1 {
+        width: 40%;
+        margin-top: -4%;
+        margin-left: 15%;
+    }
+
+    #Heading2 {
+        width: 40%;
+        margin-top: -6%;
+        margin-left: 15%;
+
+    }
+
+    #SingUpDetailsContainer {
+        width: 70%;
+    }
+}
+
+
+@media (min-width:702px) and (max-width: 1179px) {
+    #Heading1 {
+        width: 40%;
+        margin-top: -4%;
+        margin-left: 15%;
+    }
+
+    #Heading2 {
+        width: 40%;
+        margin-top: -6%;
+        margin-left: 15%;
+
+    }
+
+    #SingUpDetailsContainer {
+        width: 70%;
+    }
+}
+
+
+@media (min-width:596px) and (max-width: 702px) {
+    #Heading1 {
+        width: 60%;
+        margin-top: -4%;
+        margin-left: 14%;
+    }
+
+    #Heading2 {
+        width: 60%;
+        margin-top: -5%;
+        margin-left: 14%;
+    }
+
+    #SingUpDetailsContainer {
+        width: 70%;
+    }
+
+    #AlreadyHaveAccount {
+        font-size: 15px;
+    }
+
+    #anchortagforSignInhere {
+        font-size: 15px;
+    }
+}
+
+@media (min-width:589px) and (max-width: 596px) {
+    #Heading1 {
+        width: 60%;
+        margin-top: -4%;
+        margin-left: 14%;
+
+    }
+
+    #Heading2 {
+        width: 60%;
+        margin-top: -8%;
+        margin-left: 14%;
+    }
+
+    #SingUpDetailsContainer {
+        width: 70%;
+    }
+
+    #AlreadyHaveAccount {
+        font-size: 14px;
+    }
+
+    #anchortagforSignInhere {
+        font-size: 14px;
+    }
+}
+
+
+@media (min-width:478px) and (max-width: 589px) {
+    #Heading1 {
+        width: 60%;
+        margin-top: -4%;
+        margin-left: 4%;
+
+    }
+
+    #Heading2 {
+        width: 60%;
+        margin-top: -13%;
+        margin-left: 4%;
+    }
+
+    #SingUpDetailsContainer {
+        width: 90%;
+    }
+
+    #AlreadyHaveAccount {
+        font-size: 14px;
+    }
+
+    #anchortagforSignInhere {
+        font-size: 14px;
+    }
+
+}
+
+@media (min-width:397px) and (max-width: 478px) {
+    #Heading1 {
+        width: 60%;
+        margin-top: -4%;
+        margin-left: 4%;
+        font-size: 34px;
+    }
+
+    #Heading2 {
+        width: 60%;
+        margin-top: -13%;
+        margin-left: 4%;
+        font-size: 14px;
+    }
+
+    #SingUpDetailsContainer {
+        width: 90%;
+    }
+
+    #AlreadyHaveAccount {
+        font-size: 14px;
+    }
+
+    #anchortagforSignInhere {
+        font-size: 14px;
+    }
+
+    #MainBoardContainer {
+        width: 36%;
+    }
+
+    #BoadHeading {
+        font-size: 45px;
+        padding: 2px;
+    }
+}
+
+@media (min-width:0px) and (max-width: 397px) {
+    #Heading1 {
+        width: 60%;
+        margin-top: -4%;
+        margin-left: 4%;
+        font-size: 34px;
+    }
+
+    #Heading2 {
+        width: 97%;
+        margin-top: -13%;
+        margin-left: 4%;
+        font-size: 14px;
+    }
+
+    #SingUpDetailsContainer {
+        width: 95%;
+    }
+
+    #AlreadyHaveAccount {
+        font-size: 14px;
+    }
+
+    #anchortagforSignInhere {
+        font-size: 14px;
+    }
+
+    #MainBoardContainer {
+        width: 34%;
+    }
+
+    #BoadHeading {
+        font-size: 35px;
+        padding: 7px;
+    }
+}

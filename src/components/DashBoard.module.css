@@ -1,0 +1,946 @@
+.DashBoardContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    width: 100%;
+}
+
+
+#DashBoardNavContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* Css for left DashNavOption  */
+
+#DashBoardNavLeftOption {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+#DashBoardHeading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-size: 24px;
+    flex-wrap: wrap;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+
+/* Css for right DashNavOption  */
+
+#DashBoardNavRightOption {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+
+}
+
+#SearchBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    border-radius: 10px;
+    background-color: white;
+    margin-right: 10px;
+    flex-wrap: wrap;
+ 
+}
+
+#search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+    padding: 3px;
+    outline: none;
+    border: none;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+
+#SearchBarImage {
+    width: 8%;
+    height: 100%;
+    padding: 3px;
+}
+
+
+/* css for notification option in rightoptionavbar  */
+#NotificationOptionContainer {
+    width: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    flex-wrap: wrap;
+
+}
+
+#NotificationImage {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* css for user profile container inside rightoptionnavbar */
+#ProfileImageContainer {
+    width: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: 5px;
+    flex-wrap: wrap;
+}
+
+#UserProfile {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+
+/* css for details DetailsContainer */
+#DetailsContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* css for revenue container inside detailscontainer  */
+
+.innerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    position: relative;
+    border-radius: 20px;
+
+}
+
+.innerDetail {
+    width: 100%;
+    position: relative;
+    border-radius: 20px;
+}
+
+.DetailHeading {
+    font-family: 'Lato', sans-serif;
+    margin-left: 20px;
+}
+
+.Detials {
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 20px;
+}
+
+.InnerDetailsImgContainer {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 5%;
+    top: 2%;
+}
+
+.InnerDetailsImage {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* adding media query to the dashboard container  */
+
+@media (min-width:916px) and (max-width: 1213px) {
+    .innerContainer {
+        width: 23%;
+    }
+}
+
+@media (min-width:889px) and (max-width: 916px) {
+    .innerContainer {
+        width: 27%;
+        margin-right: 1%;
+    }
+}
+
+@media (min-width:853px) and (max-width: 889px) {
+    .innerContainer {
+        width: 27%;
+        margin-right: 1%;
+
+    }
+
+    .DetailHeading {
+        margin-left: 15px;
+
+    }
+
+    #DashBoardHeading {
+        font-size: 22px;
+    }
+
+
+    .DetailHeading {
+        font-size: 15px;
+    }
+
+    .Detials {
+        font-size: 15px;
+    }
+}
+
+@media (min-width:786px) and (max-width: 853px) {
+    .innerContainer {
+        width: 27%;
+        margin-right: 1%;
+
+    }
+
+    .DetailHeading {
+        margin-left: 15px;
+
+    }
+
+    #DashBoardHeading {
+        font-size: 22px;
+    }
+
+
+    .DetailHeading {
+        font-size: 15px;
+    }
+
+    .Detials {
+        font-size: 15px;
+    }
+
+    #NotificationOptionContainer {
+        width: 4%;
+    }
+
+    #ProfileImageContainer {
+        width: 5%;
+    }
+
+}
+
+@media (min-width: 762px) and (max-width: 786px) {
+    .innerContainer {
+        width: 27%;
+        margin-right: 1%;
+    }
+
+    #DashBoardHeading {
+        font-size: 22px;
+    }
+
+
+    .DetailHeading {
+        font-size: 13px;
+    }
+
+    .Detials {
+        font-size: 13px;
+    }
+
+    #NotificationOptionContainer {
+        width: 4%;
+    }
+
+    #ProfileImageContainer {
+        width: 5%;
+    }
+
+}
+
+@media (min-width:712px) and (max-width: 762px) {
+    .innerContainer {
+        width: 27%;
+        margin-right: 1%;
+        border-radius: 15px;
+    }
+
+    #DashBoardHeading {
+        font-size: 20px;
+    }
+
+
+    .DetailHeading {
+        font-size: 12px;
+    }
+
+    .Detials {
+        font-size: 12px;
+    }
+
+    #NotificationOptionContainer {
+        width: 3%;
+    }
+
+    #ProfileImageContainer {
+        width: 4%;
+    }
+
+
+    #SearchBar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 243px;
+        border-radius: 10px;
+        background-color: white;
+        margin-right: 17px;
+        flex-wrap: wrap;
+    }
+
+    #search {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.8rem;
+        padding: 3px;
+        outline: none;
+        border: none;
+        flex-wrap: wrap;
+        border-radius: 10px;
+        width: 75%;
+    }
+
+
+    #SearchBarImage {
+        width: 6%;
+        height: 100%;
+        padding: 3px;
+    }
+
+
+}
+
+@media (min-width:665px) and (max-width: 712px) {
+    .innerContainer {
+        width: 27%;
+        margin-right: 1%;
+    }
+
+    #DashBoardHeading {
+        font-size: 20px;
+    }
+
+
+    .DetailHeading {
+        font-size: 11px;
+    }
+
+    .Detials {
+        font-size: 12px;
+    }
+
+    #NotificationOptionContainer {
+        width: 3%;
+    }
+
+    #ProfileImageContainer {
+        width: 4%;
+    }
+
+
+    #SearchBar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 200px;
+        border-radius: 10px;
+        background-color: white;
+        margin-right: 17px;
+        flex-wrap: wrap;
+    }
+
+    #search {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.8rem;
+        padding: 3px;
+        outline: none;
+        border: none;
+        flex-wrap: wrap;
+        border-radius: 10px;
+        width: 75%;
+    }
+
+
+    #SearchBarImage {
+        width: 6%;
+        height: 100%;
+        padding: 3px;
+    }
+
+
+}
+
+@media (min-width:619px) and (max-width: 665px) {
+    .innerContainer {
+        width: 27%;
+        margin-right: 1%;
+    }
+
+    #DashBoardHeading {
+        font-size: 18px;
+    }
+
+
+    .DetailHeading {
+        font-size: 10px;
+    }
+
+    .Detials {
+        font-size: 10px;
+    }
+
+    #NotificationOptionContainer {
+        width: 3%;
+    }
+
+    #ProfileImageContainer {
+        width: 4%;
+    }
+
+
+    #SearchBar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 200px;
+        border-radius: 10px;
+        background-color: white;
+        margin-right: 17px;
+        flex-wrap: wrap;
+    }
+
+    #search {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.8rem;
+        padding: 3px;
+        outline: none;
+        border: none;
+        flex-wrap: wrap;
+        border-radius: 10px;
+        width: 75%;
+    }
+
+
+    #SearchBarImage {
+        width: 6%;
+        height: 100%;
+        padding: 3px;
+    }
+
+}
+
+
+@media (min-width:626px) and (max-width: 619px) {
+    .innerContainer {
+        width: 27%;
+        margin-right: 1%;
+    }
+
+    #DashBoardHeading {
+        font-size: 16px;
+    }
+
+
+    .DetailHeading {
+        font-size: 9px;
+    }
+
+    .Detials {
+        font-size: 9px;
+    }
+
+    #NotificationOptionContainer {
+        width: 4%;
+    }
+
+    #ProfileImageContainer {
+        width: 4%;
+    }
+
+
+    #SearchBar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 180px;
+        border-radius: 10px;
+        background-color: white;
+        margin-right: 17px;
+        flex-wrap: wrap;
+    }
+
+    #search {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.65rem;
+        padding: 3px;
+        outline: none;
+        border: none;
+        flex-wrap: wrap;
+        border-radius: 10px;
+        width: 75%;
+    }
+
+
+    #SearchBarImage {
+        width: 6%;
+        height: 100%;
+        padding: 3px;
+    }
+
+}
+
+@media (min-width:530px) and (max-width: 626px) {
+    .innerContainer {
+        width: 27%;
+        margin-right: 1%;
+    }
+
+    #DashBoardHeading {
+        font-size: 15px;
+    }
+
+
+    .DetailHeading {
+        font-size: 8.5px;
+    }
+
+    .Detials {
+        font-size: 9px;
+    }
+
+    #NotificationOptionContainer {
+        width: 4%;
+    }
+
+    #ProfileImageContainer {
+        width: 4%;
+    }
+
+
+    #SearchBar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 180px;
+        border-radius: 10px;
+        background-color: white;
+        margin-right: 17px;
+        flex-wrap: wrap;
+    }
+
+    #search {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.65rem;
+        padding: 3px;
+        outline: none;
+        border: none;
+        flex-wrap: wrap;
+        border-radius: 10px;
+        width: 75%;
+    }
+
+
+    #SearchBarImage {
+        width: 6%;
+        height: 100%;
+        padding: 3px;
+    }
+
+}
+
+@media (min-width:493px) and (max-width: 530px) {
+    .innerContainer {
+        width: 27%;
+        margin-right: 1%;
+
+    }
+
+    #DashBoardHeading {
+        font-size: 14px;
+    }
+
+
+    .DetailHeading {
+        font-size: 8px;
+    }
+
+    .Detials {
+        font-size: 8px;
+    }
+
+    #NotificationOptionContainer {
+        width: 4%;
+    }
+
+    #ProfileImageContainer {
+        width: 4%;
+    }
+
+
+    #SearchBar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 180px;
+        border-radius: 10px;
+        background-color: white;
+        margin-right: 17px;
+        flex-wrap: wrap;
+    }
+
+    #search {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.65rem;
+        padding: 3px;
+        outline: none;
+        border: none;
+        flex-wrap: wrap;
+        border-radius: 10px;
+        width: 75%;
+    }
+
+
+    #SearchBarImage {
+        width: 6%;
+        height: 100%;
+        padding: 3px;
+    }
+
+}
+
+@media (min-width:342px) and (max-width: 493px) {
+    .innerContainer {
+        width: 27%;
+        margin-right: 1%;
+        border-radius: 9px;
+    }
+
+    #DashBoardHeading {
+        font-size: 11px;
+    }
+
+
+    .DetailHeading {
+        font-size: 4px;
+        margin-top: 16%;
+    }
+
+    .InnerDetailsImgContainer {
+        width: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        right: 15%;
+        top: 4%;
+    }
+
+
+    .Detials {
+        font-size: 4px;
+    }
+
+    #NotificationOptionContainer {
+        width: 4%;
+        margin-right: 4%;
+    }
+
+    #ProfileImageContainer {
+        width: 4%;
+        margin-right: 4%;
+    }
+
+
+    #SearchBar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 110px;
+        border-radius: 10px;
+        background-color: white;
+        margin-right: 9px;
+        flex-wrap: wrap;
+    }
+
+    #search {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.40rem;
+        padding: 3px;
+        outline: none;
+        border: none;
+        flex-wrap: wrap;
+        border-radius: 10px;
+        width: 75%;
+    }
+
+
+    #SearchBarImage {
+        width: 6%;
+        height: 100%;
+        padding: 3px;
+    }
+
+}
+
+@media (min-width:330px) and (max-width: 342px) {
+    .innerContainer {
+        width: 27%;
+        margin-right: 1%;
+    }
+
+    #DashBoardHeading {
+        font-size: 11px;
+    }
+
+
+    .DetailHeading {
+        font-size: 4px;
+        margin-top: 14%;
+    }
+
+    .InnerDetailsImgContainer {
+        width: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        right: 15%;
+        top: 4%;
+    }
+
+    .Detials {
+        font-size: 4px;
+    }
+
+    #NotificationOptionContainer {
+        width: 5%;
+        margin-right: 3%;
+    }
+
+    #ProfileImageContainer {
+        width: 5%;
+        margin-right: 3%;
+    }
+
+
+    #SearchBar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100px;
+        border-radius: 10px;
+        background-color: white;
+        margin-right: 17px;
+        flex-wrap: wrap;
+    }
+
+    #search {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.45rem;
+        padding: 3px;
+        outline: none;
+        border: none;
+        flex-wrap: wrap;
+        border-radius: 10px;
+        width: 75%;
+    }
+
+
+    #SearchBarImage {
+        width: 7%;
+        height: 100%;
+        padding: 3px;
+    }
+
+}
+
+@media (min-width:328px) and (max-width: 330px) {
+    .innerContainer {
+        width: 27%;
+        margin-right: 1%;
+
+    }
+
+    #DashBoardHeading {
+        font-size: 10px;
+    }
+
+
+    .DetailHeading {
+        font-size: 4px;
+        margin-top: 14%;
+    }
+
+    .InnerDetailsImgContainer {
+        width: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        right: 17%;
+        top: 4%;
+    }
+
+
+    .Detials {
+        font-size: 4px;
+    }
+
+    #NotificationOptionContainer {
+        width: 4%;
+        margin-right: 4%;
+    }
+
+    #ProfileImageContainer {
+        width: 4%;
+        margin-right: 4%;
+    }
+
+
+    #SearchBar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100px;
+        border-radius: 10px;
+        background-color: white;
+        margin-right: 12px;
+        flex-wrap: wrap;
+    }
+
+    #search {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.45rem;
+        padding: 3px;
+        outline: none;
+        border: none;
+        flex-wrap: wrap;
+        border-radius: 10px;
+        width: 75%;
+    }
+
+
+    #SearchBarImage {
+        width: 6%;
+        height: 100%;
+        padding: 3px;
+    }
+
+}
+
+
+@media screen and (max-width: 328px) {
+    .innerContainer {
+        width: 27%;
+        margin-right: 1%;
+    }
+
+    #DashBoardHeading {
+        font-size: 8px;
+    }
+
+
+    .DetailHeading {
+        font-size: 2px;
+        margin-top: 14%;
+    }
+
+    .InnerDetailsImgContainer {
+        width: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        right: 17%;
+        top: 4%;
+    }
+
+
+    .Detials {
+        font-size: 2px;
+    }
+
+    #NotificationOptionContainer {
+        width: 5%;
+        margin-right: 4%;
+    }
+
+    #ProfileImageContainer {
+        width: 5%;
+        margin-right: 4%;
+    }
+
+    #SearchBar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 70px;
+        border-radius: 10px;
+        background-color: white;
+        margin-right: 6px;
+        flex-wrap: wrap;
+    }
+
+    #search {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.33rem;
+        padding: 2px;
+        outline: none;
+        border: none;
+        flex-wrap: wrap;
+        border-radius: 10px;
+        width: 75%;
+    }
+
+
+    #SearchBarImage {
+        width: 7%;
+        height: 100%;
+        padding: 3px;
+    }
+
+}
